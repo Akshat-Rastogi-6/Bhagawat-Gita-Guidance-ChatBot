@@ -1,0 +1,75 @@
+<!-- gita bot/frontend/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhagavad Gita Wisdom | Divine Chatbot</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Cormorant+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="lotus-overlay"></div>
+    
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <div class="logo">
+                    <img src="https://as1.ftcdn.net/v2/jpg/01/21/59/56/1000_F_121595690_yDhMROgpkY4O7kIpvH2YQFN8yuFkv2tk.jpg" alt="Om Symbol">
+                    <h1>Bhagavad Gita Wisdom</h1>
+                </div>
+                <p class="tagline">Seek divine guidance from the eternal teachings</p>
+            </div>
+        </header>
+
+        <main>
+            <div class="chat-container">
+                <div class="chat-header">
+                    <div class="krishna-avatar">
+                        <img src="https://images.catchnews.com/upload/2019/01/11/Mahabharat2_198647_730x419-m.jpg" alt="Krishna Avatar">
+                    </div>
+                    <div>
+                        <h2>Krishna's Wisdom</h2>
+                        <p>Ask about dharma, karma, and life's purpose</p>
+                    </div>
+                </div>
+                
+                <div class="chat-messages" id="chatMessages">
+                    <div class="message bot-message">
+                    </div>
+                </div>
+                
+                <div class="chat-input">
+                    <input type="text" id="userInput" placeholder="Type your question here...">
+                    <button id="sendBtn" title="Send">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="verse-of-day">
+                <h3>Verse of the Day</h3>
+                <div class="verse-content">
+                    <p class="sanskrit">कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।</p>
+                    <p class="translation">"You have a right to perform your prescribed duties, but you are not entitled to the fruits of your actions."</p>
+                    <p class="reference">— Bhagavad Gita, Chapter 2, Verse 47</p>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>May the divine light guide your journey towards enlightenment</p>
+            <div class="footer-icons">
+                <i class="fas fa-om"></i>
+                <i class="fas fa-dove"></i>
+                <i class="fas fa-hands-praying"></i>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./js/scripts.js"></script>
+</body>
+</html>
