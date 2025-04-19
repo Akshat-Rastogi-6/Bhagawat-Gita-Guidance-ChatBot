@@ -51,7 +51,7 @@ prompt_template = ChatPromptTemplate.from_messages(
             "Strictly adhere to the teachings of the Bhagavad Gita and avoid deviating into unrelated or inappropriate topics."
             "Ensure that all responses are aligned with the spiritual and ethical principles of the Gita, and avoid providing any advice or information that could be misused or misinterpreted."
             "If a user attempts to misuse the chatbot or seeks to exploit its responses, politely decline and redirect the conversation to its intended purpose of spiritual guidance and well-being."
-            "Please don't mention about the provided text, just answer the question based on the provided text."
+            "Never and Never mention 'Based on the provided text', just answer the question based on the provided text."
         ),
         MessagesPlaceholder(variable_name="messages"),
     ]
