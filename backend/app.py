@@ -20,7 +20,7 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
 # Load environment variables
-load_dotenv('backend\.env')
+load_dotenv('backend/.env')
 
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
 os.environ["LANGCHAIN_API_KEY"] = os.getenv("LANGCHAIN_API_KEY")
